@@ -1,0 +1,22 @@
+// Импорты всех файлов
+@import "header";
+@import "hero";
+@import "services";
+@import "footer";
+
+// Глобальные стили
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
